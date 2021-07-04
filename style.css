@@ -266,6 +266,7 @@ About
   border-radius: var(--radius);
   display: grid;
   grid-template-rows: auto 1fr;
+  box-shadow: 15px 15px 40px #ccc;
 }
 .btn-container {
   border-top-left-radius: var(--radius);
