@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tabs Project</title>
+  </head>
+  <body class="body">
+    <section>
+      
+      <button class="switch-btn">
+          <span>
+            <i class="fas fa-sun"></i>
+          </span>
+
+          <span>
+            <i class="fas fa-moon"></i>
+          </span>
+
+          <span class="switch"></span>
+      </button>
+
+
+      <div class="title">
+        <h2>
+          About
+        </h2>
+        <p>
+          Ehhh......This page is some stuff about me 
+        </p>
+      </div>
+
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./oreki2.png" alt="about-picture">
+        </article>
+        <article class="about">
+              <!-- btn container -->
+            <div class="btn-container">
+                <button class="tab-btn active" data-id="tan">tan</button>
+                <button class="tab-btn" data-id="learning">learning</button>
+                <button class="tab-btn" data-id="goals">goals</button>
+            </div>
+
+            <article class="about-content">
+                <!-- single content -->
+                <div class="content active" id="tan">
+                  <h4>Yo!</h4>
+                  <!-- tan -->
+                  <p>
+                    Hey, I am Tan I am currently learning web development. Other than web dev I am a intrested in music, beatboxing, anime, chess, systems, programming and web and system vulnerabilities 
+                  </p>
+                </div>
+                <!-- end of single content -->
+
+                <!-- single content -->
+                <div class="content" id="learning">
+                  <h4>Learning</h4>
+                  <p>
+                    As I said earlier I am currently learning web dev with that I am also learning <a href="https://golang.org/" target="_blank">golang</a> as a programming language to start with backend, for front end I am learning JavaScript, <a href="https://sass-lang.com/" target="_blank">Sass</a> and  <a href="https://tailwindcss.com/" target="_blank">Tailwind</a> and will continue js to learn React and Vue
+                  </p>
+                </div>
+                <!-- end of single content -->
+
+                <!-- single content -->
+                <div class="content" id="goals">
+                  <h4>Goals</h4>
+                  <p>I want to be a Full-Stack developer to understand how the web actually works and make some contribution to the community</p>
+                  <p>Also I want to learn about systems and how the hardware and software interact with each other and the loopholes which are there in it again to contribute to the community</p>
+                </div>
+                <!-- end of single content -->
+            </article>
+
+        </article>
+            
+
+
+      </div>
+      
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
